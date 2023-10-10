@@ -26,10 +26,19 @@ p {
 }
 
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.header--shadow {
+  width: 100%;
   box-shadow: 0 1px 2px #cdcdcd;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header__logo-and-nav-wrapper {
@@ -41,6 +50,7 @@ p {
   width: 200px;
   height: 80px;
   margin-right: 80px;
+  align-self: center;
 }
 
 .header__logo__link {
@@ -74,8 +84,6 @@ p {
 }
 
 .hero {
-  /* display: flex;
-  justify-content: space-around; */
   background-color: #e5f4fb;
 }
 
@@ -83,6 +91,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: -80px;
 }
 
 .hero__links {
@@ -132,4 +141,58 @@ p {
 .hero__signin__icon {
   display: flex;
   align-items: center;
+}
+
+.hero__credit-card-and-representative {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 65px;
+  margin-right: 50px;
+}
+
+.hero__credit-card-info {
+  margin-right: 40px;
+}
+
+.hero__credit-card-info__header {
+  color: #008fd0;
+  margin-bottom: 12px;
+}
+
+.hero__credit-card-info__subtitle {
+  color: #242a56;
+  margin-bottom: 20px;
+}
+
+.hero__credit-card-info-list {
+  display: flex;
+  align-items: center;
+}
+
+.hero__credit-card-list-checkmark__img {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+
+.hero__credit-card-info-text {
+  color: #008fd0;
+}
+
+.hero__credit-card-info-text--bold {
+  color: #008fd0;
+  font-weight: 700;
+}
+
+.hero__credit-card-info-text-star-addition {
+  color: #343c83;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.check-now-button {
+  background-color: #5e9b00;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
 }
