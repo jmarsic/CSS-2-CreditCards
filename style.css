@@ -41,6 +41,11 @@ p {
   align-items: center;
 }
 
+.test {
+  display: flex;
+  align-items: center;
+}
+
 .header__logo-and-nav-wrapper {
   display: flex;
   align-items: center;
@@ -91,7 +96,9 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 10px;
   margin-left: -80px;
+  margin-bottom: 30px;
 }
 
 .hero__links {
@@ -143,6 +150,11 @@ p {
   align-items: center;
 }
 
+.hero__signin__icon__img {
+  width: 24px;
+  height: 24px;
+}
+
 .hero__credit-card-and-representative {
   display: flex;
   justify-content: space-around;
@@ -156,17 +168,21 @@ p {
 
 .hero__credit-card-info__header {
   color: #008fd0;
+  font-size: 27px;
+  margin-top: 14px;
   margin-bottom: 12px;
 }
 
 .hero__credit-card-info__subtitle {
   color: #242a56;
-  margin-bottom: 20px;
+  font-size: 31px;
+  margin-bottom: 30px;
 }
 
 .hero__credit-card-info-list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
 }
 
 .hero__credit-card-list-checkmark__img {
@@ -177,6 +193,8 @@ p {
 
 .hero__credit-card-info-text {
   color: #008fd0;
+  margin-top: 5px;
+  font-size: 20px;
 }
 
 .hero__credit-card-info-text--bold {
@@ -186,13 +204,87 @@ p {
 
 .hero__credit-card-info-text-star-addition {
   color: #343c83;
-  margin-top: 20px;
-  margin-bottom: 16px;
+  font-size: 16px;
+  margin-top: 22px;
+  margin-bottom: 18px;
 }
 
 .check-now-button {
   background-color: #5e9b00;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.check-now-button-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 24px;
+  margin-right: 106px;
+  padding: 20px 0;
+}
+
+.check-now-button-chevron {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.hero-representative-wrapper {
+  width: 370px;
+  background-color: #2a2e5e;
+  border-radius: 20px;
+  padding: 20px 50px;
+  margin-right: 80px;
+  margin-bottom: 30px;
+}
+
+.hero-representative-card-image {
+  width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-representative__heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.hero-representative-preview-wrapper {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hero-representative-about {
+  width: 100px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.hero-representative-separator {
+  height: 56px;
+}
+
+.hero-representative-additional-message {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+}
+
+.hero-representative-about--bold {
+  font-weight: 800;
 }
