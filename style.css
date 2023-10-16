@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: helvetica;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -42,10 +43,8 @@ p {
 }
 
 .header__logo {
-  width: 200px;
-  height: 80px;
+  margin-top: -26px;
   margin-left: 80px;
-  align-self: center;
 }
 
 .header__logo__link {
@@ -80,11 +79,6 @@ p {
   color: #008fd0;
 }
 
-.chevron__img {
-  width: 26px;
-  height: 24px;
-}
-
 .hero {
   background-color: #e5f4fb;
 }
@@ -105,19 +99,15 @@ p {
 .hero__links-home {
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
 .hero__home__link {
   text-decoration: none;
   color: #343c83;
+  font-weight: 600;
   margin-left: 80px;
   margin-right: 4px;
-}
-
-.hero__home__img {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
 }
 
 .hero__links-credit-cards {
@@ -146,11 +136,6 @@ p {
   display: flex;
   align-items: center;
   margin-right: 80px;
-}
-
-.hero__signin__icon__img {
-  width: 24px;
-  height: 24px;
 }
 
 .hero__credit-card-and-representative {
@@ -183,15 +168,10 @@ p {
   margin-bottom: 10px;
 }
 
-.hero__credit-card-list-checkmark__img {
-  width: 30px;
-  height: 30px;
-  margin-right: 16px;
-}
-
 .hero__credit-card-info-text {
   color: #008fd0;
   margin-top: 5px;
+  margin-left: 16px;
   font-size: 20px;
 }
 
@@ -214,7 +194,9 @@ p {
   border-radius: 6px;
   display: flex;
   align-items: center;
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 16px;
   cursor: pointer;
 }
 
@@ -227,12 +209,6 @@ p {
   padding: 20px 0;
 }
 
-.check-now-button-chevron {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
 .hero-representative-wrapper {
   width: 370px;
   background-color: #2a2e5e;
@@ -243,7 +219,6 @@ p {
 }
 
 .hero-representative-card-image {
-  width: 240px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -270,10 +245,6 @@ p {
   text-align: center;
   font-size: 11px;
   font-weight: 100;
-}
-
-.hero-representative-separator {
-  height: 56px;
 }
 
 .hero-representative-additional-message {
@@ -312,10 +283,6 @@ p {
 .hero-payment-features__icon-wrapper {
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.hero-payment-features__icon {
-  width: 30px;
 }
 
 .hero-payment-features-info {
@@ -386,11 +353,10 @@ p {
 }
 
 .reviews-chevron-left-icon {
-  height: 34px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 7px;
+  margin-top: 8px;
 }
 
 .reviews-preview-main-wrapper {
@@ -406,10 +372,6 @@ p {
   margin-right: 28px;
   margin-bottom: 10px;
   margin-left: 28px;
-}
-
-.quotation-marks-icon {
-  width: 110px;
 }
 
 .reviews-main-container {
@@ -441,7 +403,6 @@ p {
 }
 
 .review-clock-icon {
-  width: 20px;
   margin-right: 4px;
   margin-bottom: 2px;
 }
@@ -461,21 +422,16 @@ p {
 }
 
 .reviews-chevron-right-icon {
-  height: 34px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 7px;
+  margin-top: 8px;
 }
 
 .reviews-rating__image-container {
   display: flex;
   justify-content: center;
   padding-bottom: 36px;
-}
-
-.reviews-rating__image {
-  width: 180px;
 }
 
 .guides {
@@ -536,7 +492,6 @@ p {
 }
 
 .grid__image {
-  width: 250px;
   border-radius: 16px;
 }
 
